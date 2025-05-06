@@ -4,7 +4,7 @@
 
 	// generate random number
     $givenTemp = 15;
-    if ($userGuess == $givenTemp) {
+    if ($temperature == $givenTemp) {
         echo "It's hot today!";
     }
     else {
