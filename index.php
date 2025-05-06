@@ -1,10 +1,10 @@
-<!-- Unit4-01-PHP-GuessMyNumber -->
+<!-- Unit4-02-PHP-ColdHot -->
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <!-- Metadata -->
     <meta charset="utf-8" />
-    <meta name="description" content="Guessing Game"/>
+    <meta name="description" content="Hot and Cold"/>
     <meta name="keywords" content="immaculata, icd2o" />
     <meta name="author" content="Kukwac" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -13,7 +13,7 @@
     <link rel="icon" type="image/png" sizes="32x32" href="./Favicons/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="./Favicons/favicon-16x16.png">
     <link rel="manifest" href="./Favicons/site.webmanifest">
-    <!-- CSS -->
+    <!-- CSS file -->
     <link rel="stylesheet" href="./css/style.css" />
     <!-- Title -->
     <title>Weather Today</title>
@@ -26,7 +26,7 @@
       <label for="userTemp">Weather Today</label>
       <input type="number" id="userTemp" placeholder="Temperature (°C)..." name="userTemp">
       <br><br>
-      <input type="submit" value="Display temperature" />
+      <input type="submit" value="Display result" />
     </form>
     
     <iframe id="result" name="result">
