@@ -22,7 +22,7 @@
     <?php
       echo "<h3>Weather Today</h3>";
     ?>
-    <form action="./results.php" method="post" target="result">
+    <form action="results.php" method="post" target="result">
       <label for="userTemp">Weather Today</label>
       <input type="number" id="userTemp" placeholder="Temperature (°C)..." name="userTemp">
       <br><br>

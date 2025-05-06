@@ -1,9 +1,9 @@
 <?php
-	// get number from the textfield
+	// get temperature from the user
     $temperature = $_POST['userTemp'];
 
-	// generate random number
-    const $givenTemp = 15;
+	// display the result
+    $givenTemp = 15;
     if ($temperature < $givenTemp) {
         echo "It's cold today!";
     }
